@@ -14,7 +14,11 @@ class Cadenas:
     
     def Ejercicio_2 (self) -> str :
         #Escribir un programa que pregunte el nombre completo del usuario en la consola y después muestre por pantalla el nombre completo del usuario tres veces, una con todas las letras minúsculas, otra con todas las letras mayúsculas y otra solo con la primera letra del nombre y de los apellidos en mayúscula. El usuario puede introducir su nombre combinando mayúsculas y minúsculas como quiera.
-        return self.cadena.lower() +"-"+self.cadena.upper()+"-"+self.cadena.title() 
+        return self.cadena.lower() +"-"+self.cadena.upper()+"-"+self.cadena.title()
+
+    def Ejercicio_3(self) -> str :
+        #Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre.
+        return f"{self.cadena.upper()} tiene {len(self.cadena)} letras " 
 
 
 

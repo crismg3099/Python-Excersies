@@ -14,6 +14,11 @@ class pruebas_unitarias(unittest.TestCase):
         nombre = Ejercicio_candenas.Cadenas("cHristian Macosay")
         resultado = nombre.Ejercicio_2()
         self.assertEqual(resultado,"christian macosay-CHRISTIAN MACOSAY-Christian Macosay")
+    
+    def test_ejercicio3(self):
+        nombre = Ejercicio_candenas.Cadenas("Christian")
+        resultado = nombre.Ejercicio_3()
+        self.assertEqual(resultado,"CHRISTIAN tiene 9 letras ")
 
 
 
