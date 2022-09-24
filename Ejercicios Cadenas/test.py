@@ -10,6 +10,11 @@ class pruebas_unitarias(unittest.TestCase):
         resultado =Nombre.Ejercicio_1(3)
         self.assertEqual(resultado,"ChristianChristianChristian")
 
+    def test_ejercicio2(self):
+        nombre = Ejercicio_candenas.Cadenas("cHristian Macosay")
+        resultado = nombre.Ejercicio_2()
+        self.assertEqual(resultado,"christian macosay-CHRISTIAN MACOSAY-Christian Macosay")
+
 
 
 if __name__ == '__main__':
