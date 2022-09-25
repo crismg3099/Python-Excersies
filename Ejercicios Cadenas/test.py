@@ -25,6 +25,11 @@ class pruebas_unitarias(unittest.TestCase):
         numero = n.Ejercicio_4()
         self.assertEqual(numero,"913724710")
 
+    def test_Ejercicio5(self):
+        objeto5= Ejercicio_candenas.Cadenas("Hola")
+        palabra1= objeto5.Ejercicio_5()
+        palabra2 = "aloH"
+        self.assertEqual(palabra1,palabra2) 
 
 
 
