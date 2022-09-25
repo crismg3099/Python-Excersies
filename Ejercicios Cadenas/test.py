@@ -31,6 +31,12 @@ class pruebas_unitarias(unittest.TestCase):
         palabra2 = "aloH"
         self.assertEqual(palabra1,palabra2) 
 
+    def test_Ejercicio6(self):
+        objeto6= Ejercicio_candenas.Cadenas("Hola")
+        palabra1= objeto6.Ejercicio_6("a")
+        palabra2 = "HolA"
+        self.assertEqual(palabra1,palabra2) 
+
 
 
 if __name__ == '__main__':

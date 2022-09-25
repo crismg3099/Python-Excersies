@@ -28,6 +28,12 @@ class Cadenas:
     def Ejercicio_5(self) -> str:
         #Escribir un programa que pida al usuario que introduzca una frase en la consola y muestre por pantalla la frase invertida.
         return self.cadena[::-1]
+    
+    def Ejercicio_6(self,vocal:str) -> str:
+        #Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.
+        return self.cadena.replace(vocal.lower(),vocal.upper())
+
+
 
 
 
