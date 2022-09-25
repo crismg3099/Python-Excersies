@@ -33,6 +33,25 @@ class Cadenas:
         #Escribir un programa que pida al usuario que introduzca una frase en la consola y una vocal, y después muestre por pantalla la misma frase pero con la vocal introducida en mayúscula.
         return self.cadena.replace(vocal.lower(),vocal.upper())
 
+    def Ejercicio_7(self) -> str:
+        #Escribir un programa que pregunte el correo electrónico del usuario en la consola y muestre por pantalla otro correo electrónico con el mismo nombre (la parte delante de la arroba @) pero con dominio ceu.es.
+        email = self.cadena.split("@")
+        return email[0] + "@ceu.es."
+
+    def Ejercicio_8(self)->str:
+        #Escribir un programa que pregunte por consola el precio de un producto en euros con dos decimales y muestre por pantalla el número de euros y el número de céntimos del precio introducido.
+        precio = self.cadena.split(".")
+        return f"son {precio[0]} euros y {precio[1]} centavos"
+
+    def Ejercicio_9(self)->str:
+        #Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
+        pass
+
+        
+
+
+
+
 
 
 

@@ -37,6 +37,18 @@ class pruebas_unitarias(unittest.TestCase):
         palabra2 = "HolA"
         self.assertEqual(palabra1,palabra2) 
 
+    def test_Ejercicio7(self):
+        objeto7= Ejercicio_candenas.Cadenas("christian@gmail.com")
+        palabra1= objeto7.Ejercicio_7()
+        palabra2 = "christian@ceu.es."
+        self.assertEqual(palabra1,palabra2) 
+
+    def test_Ejercicio8(self):
+        objeto8= Ejercicio_candenas.Cadenas("452.65")
+        palabra1= objeto8.Ejercicio_8()
+        palabra2 = "son 452 euros y 65 centavos"
+        self.assertEqual(palabra1,palabra2) 
+
 
 
 if __name__ == '__main__':
