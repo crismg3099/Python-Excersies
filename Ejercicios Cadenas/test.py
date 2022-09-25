@@ -20,6 +20,12 @@ class pruebas_unitarias(unittest.TestCase):
         resultado = nombre.Ejercicio_3()
         self.assertEqual(resultado,"CHRISTIAN tiene 9 letras ")
 
+    def test_Ejercicio4(self):
+        n = Ejercicio_candenas.Cadenas("+34-913724710-56")
+        numero = n.Ejercicio_4()
+        self.assertEqual(numero,"913724710")
+
+
 
 
 if __name__ == '__main__':
