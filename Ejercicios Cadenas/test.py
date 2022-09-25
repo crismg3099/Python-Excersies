@@ -49,6 +49,12 @@ class pruebas_unitarias(unittest.TestCase):
         palabra2 = "son 452 euros y 65 centavos"
         self.assertEqual(palabra1,palabra2) 
 
+    def test_Ejercicio9(self):
+        objeto9= Ejercicio_candenas.Cadenas("30/03/1999")
+        palabra1= objeto9.Ejercicio_9()
+        palabra2 = "dia= 30 , mes = 03 , año = 1999"
+        self.assertEqual(palabra1,palabra2) 
+
 
 
 if __name__ == '__main__':

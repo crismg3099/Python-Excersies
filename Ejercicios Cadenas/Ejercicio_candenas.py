@@ -45,8 +45,11 @@ class Cadenas:
 
     def Ejercicio_9(self)->str:
         #Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa anterior para que también funcione cuando el día o el mes se introduzcan con un solo carácter.
-        pass
+        return f"dia= {self.cadena[0:2]} , mes = {self.cadena[3:5]} , año = {self.cadena[6:10]}"
 
+    def Ejercicio_10(self)->str:
+        #Escribir un programa que pregunte por consola por los productos de una cesta de la compra, separados por comas, y muestre por pantalla cada uno de los productos en una línea distinta.
+        return self.cadena.replace(",","\n")
         
 
 
