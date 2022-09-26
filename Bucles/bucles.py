@@ -36,9 +36,25 @@ class bucles():
         for i in range(numero,0,-1):
             resultado = resultado + str(i) +","
         return resultado
+    def Ejercicio_5(self,cantidad,interes,años) -> dict:
+        #Escribir un programa que pregunte al usuario una cantidad a invertir, el interés anual y el número de años, y muestre por pantalla el capital obtenido en la inversión cada año que dura la inversión.
+        inversiones = {}
+        acumulado = 0
+        for i in range(1,años+1):
+            acumulado =acumulado + (cantidad * (interes/100))
+            inversiones[i]= cantidad + acumulado
+        return inversiones        
 
-
-
+    def Ejercicio_6(self,numero:int) -> str:
+        #Escribir un programa que pida al usuario un número entero y muestre por pantalla un triángulo rectángulo como el de más abajo, de altura el número introducido.
+        resultado = ""
+        for i in range (1,numero+1):
+            resultado =resultado + ("*" * i) + "\n" 
+        return resultado
+    
+    def Ejercicio_7(self,tabla:int):
+        #Escribir un programa que muestre por pantalla la tabla de multiplicar del 1 al 10.
+        pass
 
 
 

@@ -28,6 +28,18 @@ class pruebas(unittest.TestCase):
         resultado = "18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,"
         self.assertEqual(prueba4,resultado)
         
+    def test_ejercicio_5(self):
+        objeto5=bucles.bucles()
+        prueba5= objeto5.Ejercicio_5(1000,10,10)
+        resultado = {i:1000+(100*i) for i in range(1,10+1)}
+        self.assertEqual(prueba5,resultado)
+        
+    def test_ejercicio_6(self):
+        objeto6=bucles.bucles()
+        prueba6= objeto6.Ejercicio_6(3)
+        resultado = "*\n**\n***\n"
+        self.assertEqual(prueba6,resultado)
+        
 
 
 
