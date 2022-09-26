@@ -21,4 +21,16 @@ class bucles():
             for i in range(1,edad+1):
                 tiempo.append(i)
             return tiempo
+    
+    def Ejercicio_3(self,numero:int) -> list:
+        #Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla todos los números impares desde 1 hasta ese número separados por comas.
+        numeros = []
+        for i in range (1,numero+1):
+            if i % 2 != 0:
+                numeros.append(i)
+        return numeros
+
+
+
+
 
