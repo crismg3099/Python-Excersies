@@ -22,6 +22,12 @@ class pruebas(unittest.TestCase):
         resultado = [i for i in range(1,27+1) if i % 2 !=0]
         self.assertEqual(prueba3,resultado)
 
+    def test_ejercicio_4(self):
+        objeto4=bucles.bucles()
+        prueba4= objeto4.Ejercicio_4(18)
+        resultado = "18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3,2,1,"
+        self.assertEqual(prueba4,resultado)
+        
 
 
 

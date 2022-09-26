@@ -1,6 +1,7 @@
 
 from ast import Pass
 import re
+from unittest import result
 
 
 class bucles():
@@ -29,6 +30,14 @@ class bucles():
             if i % 2 != 0:
                 numeros.append(i)
         return numeros
+    def Ejercicio_4(self,numero:int) -> str:
+        #Escribir un programa que pida al usuario un número entero positivo y muestre por pantalla la cuenta atrás desde ese número hasta cero separados por comas.
+        resultado=""
+        for i in range(numero,0,-1):
+            resultado = resultado + str(i) +","
+        return resultado
+
+
 
 
 
